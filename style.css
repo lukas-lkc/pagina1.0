@@ -7,8 +7,6 @@
 text-align: center;
 justify-content: center;
 align-items: center;
-margin-left: 80px; /* adiciona uma margem de 20px do lado esquerdo */
-margin-right: 80px;
 }
 
 #cpl{
@@ -22,18 +20,27 @@ width: 50px; /* aplica uma largura de 50px */
 height: 50px; /* aplica uma altura de 50px */
 border-radius: 50%;
 cursor: pointer; /*Mudar cursor ao passar o mouse*/
+right: 10%;
 }
 
 #botao1 {
 background-color: #4CAF50; /*Cor de fundo*/
 color: white; /*Cor do texto*/
 padding: 14px 20px; /*Espaçamento interno*/
-
 border: none; /*Remover borda*/
 cursor: pointer; /*Mudar cursor ao passar o mouse*/
 width: 400px;
 height: 50px;
 border-radius: 20px;
+margin: 0 auto;
+}
+
+#gif {
+  margin: 0 auto;
+}
+
+#video1 {
+  margin: 0 auto;
 }
 
 @media (max-width: 500px) {
