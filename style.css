@@ -1,3 +1,8 @@
+{
+  margin: 0;
+  padding: 0;
+} 
+
 .container {    
 text-align: center;
 margin-left: 80px; /* adiciona uma margem de 20px do lado esquerdo */
