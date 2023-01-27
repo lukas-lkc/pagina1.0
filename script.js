@@ -1,5 +1,3 @@
-var comprarAgora = "https://hotmart.com"
-
 var aula1 = 'KWhXWFY0r74'
 var aula2 = 1
 var aula3 = 2
