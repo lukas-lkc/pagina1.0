@@ -1,4 +1,5 @@
 .container {
+transform: scale(1.2);    
 text-align: center;
 margin-left: 80px; /* adiciona uma margem de 20px do lado esquerdo */
 margin-right: 80px;
