@@ -11,7 +11,7 @@ function changeVideo(videoId) {
 
 
 //ao clicar no botão abaixo do vídeo, window.location faz um redirecionamento de página para o link da var comprarAgora.
-function redirect() {
-  window.location.href = comprarAgora;
+function openGif() {
+  window.open("https://media.giphy.com/media/1d7F9xyq6j7C1ojbC5/giphy.gif", "gifPopup", "height=500,width=500,scrollbars=no");
 }
 
