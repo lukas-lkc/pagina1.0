@@ -1,30 +1,65 @@
 .container {
-  text-align: center;
-  margin-left: 80px; /* adiciona uma margem de 20px do lado esquerdo */
-  margin-right: 80px;
+text-align: center;
+margin-left: 80px; /* adiciona uma margem de 20px do lado esquerdo */
+margin-right: 80px;
 }
 
 #cpl{
-  /*text-align: right="10%";*/
-  margin-right: -400px;
+/text-align: right="10%";/
+margin-right: -400px;
 }
 
 #cpl button{
-  margin-right: 10px; /* adiciona uma margem de 10px entre os botões */
- width: 50px; /* aplica uma largura de 50px */
-  height: 50px; /* aplica uma altura de 50px */ 
- border-radius: 50%;
- cursor: pointer; /*Mudar cursor ao passar o mouse*/
+margin-right: 10px; /* adiciona uma margem de 10px entre os botões /
+width: 50px; / aplica uma largura de 50px /
+height: 50px; / aplica uma altura de 50px */
+border-radius: 50%;
+cursor: pointer; /*Mudar cursor ao passar o mouse*/
 }
 
 #botao1 {
-    background-color: #4CAF50; /*Cor de fundo*/
-  color: white; /*Cor do texto*/
-  padding: 14px 20px; /*Espaçamento interno*/
+background-color: #4CAF50; /*Cor de fundo*/
+color: white; /*Cor do texto*/
+padding: 14px 20px; /*Espaçamento interno*/
 
-  border: none; /*Remover borda*/
-  cursor: pointer; /*Mudar cursor ao passar o mouse*/
-  width: 400px;
-  height: 50px;
-  border-radius: 20px;
+border: none; /*Remover borda*/
+cursor: pointer; /*Mudar cursor ao passar o mouse*/
+width: 400px;
+height: 50px;
+border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+.container {
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+}
+
+#cpl {
+margin-right: 0;
+}
+
+#cpl button {
+width: 100%;
+height: auto;
+margin-right: 0;
+}
+
+#botao1 {
+width: 100%;
+}
+}
+
+body {
+width: 100%;
+overflow-x: hidden;
+}
+
+html {
+width: 100%;
+}
+
+{
+box-sizing: border-box;
 }
