@@ -88,10 +88,7 @@ h1 {
 
 /*como a página será apresentada em dispositivos com largura menor que 800px*/
 @media (max-width: 800px) {
-    
-    .container {
-        padding: 0px 5px;
-    }
+
     h3 {
         text-align: center;
     }
