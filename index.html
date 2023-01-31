@@ -1,16 +1,19 @@
-<html>
-  <head>
-    <title>
-      Blog
-    </title>
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta http-equiv="refresh" content="600">
+    <meta charset="UTF-8">
+    <mrta http-equiv="X-UA-Compatible" content="IE=edge"></mrta>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="https://lukas-lkc.github.io/pagina1.0/style.css" rel="stylesheet"/>
+    <!--linhas de código que faz funcionar no github
+    <link href="https://lukas-lkc.github.io/pagina1.0/style.css" rel="stylesheet" />
     <script src="https://lukas-lkc.github.io/pagina1.0/script.js">
-    </script>
-  </head>
-  
-  <body>
-    <div class="container">
+    -->
+    <title>Título da Página</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <body>
+        <div class="container">
             <nav>
                 <ul>
                     <li>
@@ -26,7 +29,7 @@
             </nav>
             <header>
                 <div class="center">
-                    <img src="./careca.png"></img>
+                    <img src="./img/careca.jpeg"></img>
                 </div>
                 <div class="center">
                     <h1 id="titulo">Seja bem vindo!</h1>
@@ -39,9 +42,9 @@
                 <h3>Por hora só tem meme:</h3>
     
                 <div id="botoesCentro">
-                    <button id="aula1" type="submit" form="form1" value="Submit" onclick="changeVideo('QtIRXjZBugs?start=11')">Vídeo 1</button>
+                    <button id="aula1" type="submit" form="form1" value="Submit" onclick="changeVideo('QtIRXjZBugs')">Vídeo 1</button>
                     <button id="aula2" type="submit" form="form1" value="Submit" onclick="changeVideo('UcQQAlXwqxM')">Vídeo 2</button>
-                    <button id="aula3" type="submit" form="form1" value="Submit" onclick="changeVideo('dBbyXY7RB6g')">Vídeo 3</button>
+                    <button id="aula3" type="submit" form="form1" value="Submit" onclick="changeVideo('Y569AUQFRMY')">Vídeo 3</button>
                     <!--<button id="aula4" type="submit" form="form1" value="Submit" onclick="changeVideo('link aqui')">Vídeo 4</button>-->
                 
                 </div>
@@ -60,23 +63,40 @@
                     <br>
                 </div>
                 
+                <div id="formContat">
+                    <div id="sectionForm">
+                        <h2>Conntato</h2>
+                        <form action="https://api.staticforms.xyz/submit" method="post">
+                            <label>Nome</label>
+                            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required/>
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="on" required/>
+                            <label>Mensagem</label>
+                            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                            <button type="submit">Enviar</button>
+                            <input type="hidden" name="accessKey" value="129c92b6-a013-4f1e-a9b5-4d15d9f4920c">
+                            <input type="hidden" name="redirectTo" value="file:///C:/Users/lucca/Downloads/DEV/FormularioTeste/index.html">
+                        </form>
+                    </div>
+                </div>
+
                 <section>      
                     <h4>
                         Importante:
                     </h4>
                     <p>
-                        Lorem, ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </section>
             </main>
     
             <footer>
-                <a href="https://https://github.com/lukas-lkc" target="_blank" relf="noopener noreferer"> <!--ajuda no SEO e na parte de segurança do link-->
-                    <img src="./git.png"></img>
+                <a href="https://x" target="_blank" relf="noopener noreferer"> <!--ajuda no SEO e na parte de segurança do link-->
+                    <img src="./img/git.png"></img>
                     <p>GitHub</p>
                 </a>
-                <a href="https://https://www.linkedin.com/in/lucas-carvalho-1a88ba1b3/" target="_blank" relf="noopener noreferer">
-                    <img src="./in.png"></img>
+                <a href="https://x" target="_blank" relf="noopener noreferer">
+                    <img src="./img/in.png"></img>
                     <p>Linkedin</p>
                 </a>
     
