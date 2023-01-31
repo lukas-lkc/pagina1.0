@@ -73,6 +73,13 @@ header img {
     margin: 2rem;
 }
 
+
+#sectionForm h3 {
+    color: #f5f5f5;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
 #sectionForm form{
     display: flex;
     flex-direction: column;
