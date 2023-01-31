@@ -115,8 +115,8 @@ form button{
 }
 
 form button:hover{
-    border-radius: 16%;
     background: #f5f5f5;
+    border: 2px solid #1d1d2e;
     color: #1d1d2e;
     font-weight: bold; /*last edition*/
 }
