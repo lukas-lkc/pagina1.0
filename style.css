@@ -138,7 +138,7 @@ form button{
     transition: 1s;
 }
 
-form textarea:hover{
+form button:hover{
     border-radius: 16%;
     background: #f5f5f5;
 }
